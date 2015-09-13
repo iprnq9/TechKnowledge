@@ -1,0 +1,101 @@
+body {
+    font-family: sans-serif;
+}
+
+
+
+.header {
+    width: 100%;
+    border: solid black 0px;
+    background-color: lightblue;
+    height: 55px;
+}
+
+
+
+.nav {
+    float: ;
+    border: solid black px;
+    width: ;
+    height: auto;
+    background-color: yellow;
+}
+
+.body {
+
+}
+
+.footer {
+  text-align: right;
+}
+
+.project-header-image {
+     align: middle;
+     margin: 0 auto; 
+     width: 40%;
+     border-radius: 0px; 
+     border-top: solid black 0px;
+     border-bottom: solid black 0px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.project-header {
+     margin: 0 auto;
+     width: 99%;
+     text-align: center;
+     border: solid black 0px;
+     background-color: lawngreen;
+}
+
+.project-title {
+   font-size: 35px;
+   font-family: sans-serif;
+}
+
+.project-author {
+   font-size: 24px;
+}
+
+.project-author:before {
+   content: "by ";
+}
+
+input[type="text"] {
+  display: block;
+  float: right;
+  margin: 0;
+  width: 80px;
+  font-size: 18px;
+  padding: 12px;
+  border: solid 5px #c9c9c9;
+  transition: border 0.7s, width 0.7s;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+input[type="text"]:focus {
+  border: solid 5px #969696;
+  width: 200px;
+  outline: 0;
+}
+
+input[type="text"]::-webkit-input-placeholder, 
+input[type="text"]:-moz-placeholder, 
+input[type="text"]::-moz-placeholder,
+input[type="text"]:-ms-input-placeholder {
+    color: red;
+}
+
+.logo {
+    font-size: 40px;
+    font-family: sarif;
+}
+
+.project-info-title {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.project-info-text {
+  font-size: 1em; 
+  line-height: 30px;
+}
