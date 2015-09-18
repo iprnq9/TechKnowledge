@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/roboto.ttf);
+}
+
 body {
     font-family: sans-serif;
     background: #E9E0D6;
