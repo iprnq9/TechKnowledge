@@ -3,12 +3,30 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Arduino Bot | Techknowledge</title>
+    <title>About | Techknowledge</title>
     <link href="styles.css" type="text/css" rel="stylesheet">
     <link href="flex.css" type="text/css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
+
+<script>
+$(document).ready(function(){
+    
+    $("#container").delay(1000).fadeOut(function() {
+      $(this).text("Education").fadeIn().delay(1000).fadeOut(function() {
+      	$(this).text("Tech").fadeIn().delay(1000).fadeOut(function() {
+      		$(this).text("Knowledge").fadeIn();
+   		 });
+       });
+    });
+    
+    $("#give").delay(6300).fadeOut(function() {
+        $(this).text("Tech").fadeIn();
+    });
+        
+});
+</script>
 
 <body>
 
@@ -28,14 +46,22 @@
 <li class="nav-link-item">My Profile</li>
 </ul>
 
-<div id="main">
-<div id="slogan">Give Hope</div>
-<div id="about-video">Video here</div>
+</aside>
+  <article class="main">
+<div id="about-landing">
+<div id="slogan">
+<div id="give">Give</div>
+<div id="container" class="slide">Hope</div>
 </div>
+<hr width="25%" color="black" NO SHADE>
+<div id="video"></div>
+</div>
+
+  </article>
 
 
   <footer class="footer">&copy; 2015 | Techknowledge | HIZBH</footer>
 </div>
 
 </body>
-</html>
+</htm
