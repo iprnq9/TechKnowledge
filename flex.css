@@ -114,8 +114,8 @@ body {
 /*---------------ABOUT PAGE-------------------*/
 
 #about-landing {
-   width: 100%;
-   background-color: yellow;
+   width: ;
+   background-color: ;
    height: 100%;
    padding: 15px;
 }
@@ -129,10 +129,11 @@ body {
    font-size: 35pt;
    font-weight: bold;
    padding-left: 15px;
+    margin-bottom: 25px;
 }
 
 #give {
-   margin-right: 12px;
+   margin-right: 7px;
    float: left;
    text-align: right;
    width: 100px;
@@ -140,7 +141,8 @@ body {
 
 #container {
    text-align: left;
-   margin: 0; 
+   margin: 0;
+
 }
 
 #video {
@@ -148,7 +150,41 @@ body {
    height: 390px;
    margin: 0 auto;
    text-align: center; 
-   background-color: red;
-   margin-top: 15px;
+   background-color: ;
+   margin-top: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
+#continue-arrow {
+    width: 50px;
+    height: 50px;
+    font-family: FontAwesome;
+    margin: 0 auto;
+    top: 99%;
+    font-size: 50px;
+}
+
+#main2 {
+    height: 100%;
+}
+
+#about-content {
+    width: 80%;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#about-content-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+#about-content-text {
+    font-family: RobotoMed;
+    font-size: 1.45em;
+}
