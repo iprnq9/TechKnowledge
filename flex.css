@@ -129,7 +129,7 @@ body {
    height: 50px;
    font-size: 35pt;
    font-weight: bold;
-   padding-left: 15px;
+   padding-left: 55px;
     margin-bottom: 25px;
 }
 
@@ -191,4 +191,86 @@ body {
 #about-content-text {
     font-family: RobotoMed;
     font-size: 1.45em;
+}
+
+
+/*---------*/
+
+#connection {
+    width: 80%;
+    margin: 0 auto;
+    background-color: blue;
+}
+#items-list {
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+
+    color: black;
+}
+
+#search {
+    width: 45%;
+    min-width: 200px;
+    height: auto;
+    float: left;
+    padding: 15px;
+
+}
+
+.connection-column {
+    width: 45%;
+    min-width: 200px;
+    height: auto;
+    background-color: ;
+    float: right;
+    padding: 15px;
+    color: black;
+}
+
+#connection-card {
+    width: ;
+    min-width: 200px;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding: 15px;
+    color: black;
+    font-family: RobotoMed;
+}
+
+#profile-card-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: black;
+}
+
+#profile-card-text {
+    font-family: RobotoMed;
+    font-size: 1.45em;
+}
+
+#profile-card-text ul {
+    margin: 0 auto;
+    list-style-type: none;
+
+    padding: 0;
+}
+
+#profile-card-text li {
+
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+}
+
+.quick-card-title {
+    font-size: 22px;
+}
+
+#items-list li:hover {
+    background-color: lightgray;
 }

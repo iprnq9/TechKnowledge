@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Connections | TechKnowledge</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <link href="flex.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+
+
+<body>
+
+<script>
+    function showHide(divId){
+
+        $(".connection-column").not("#" + divId).hide();
+        $("#" + divId).show();
+    }
+</script>
+
+
+<div class="wrapper">
+    <header class="header"><div class="search"><input type="text" name="search" placeholder="&#xF002; search" style="font-family: RobotoBold, FontAwesome"><span class="logo">TechKnowledge</span>
+
+
+
+    </header>
+
+
+    <article id="main2" class="main">
+            <div id="connection">
+                <div id="search">
+                    <div id="profile-card-title"><strong>Find People Who Need:</strong></div>
+                    <div id="items-list">
+                        <div id="profile-card-text">
+                            <ul>
+                                <a href="#" onclick="showHide('needs-arduino')"><li>Arduino</li></a>
+                                <a href="#" onclick="showHide('needs-rpi')"><li>Raspberry Pi</li></a>
+                                <a href="#" onclick="showHide('needs-solder')"><li>Soldering Supplies</li></a>
+                                <a href="#" onclick="showHide('needs-bread')"><li>Breadboards</li></a>
+                                <a href="#" onclick="showHide('needs-routers')"><li>Routers</li></a>
+                                <a href="#" onclick="showHide('needs-switches')"><li>Switches</li></a>
+                            </ul>
+                        </div>
+                </div>
+
+                    <div id="profile-card-title" style="margin-top: 15px;"><strong>Find People Who Have:</strong></div>
+                    <div id="items-list">
+                        <div id="profile-card-text">
+                            <ul style="margin-bottom: 55px;">
+                                <a href="#" onclick="showHide('has-arduino')"><li>Arduino</li></a>
+                                <a href="#" onclick="showHide('has-rpi')"><li>Raspberry Pi</li></a>
+                                <a href="#" onclick="showHide('has-solder')"><li>Soldering Supplies</li></a>
+                                <a href="#" onclick="showHide('has-bread')"><li>Breadboards</li></a>
+                                <a href="#" onclick="showHide('has-routers')"><li>Routers</li></a>
+                                <a href="#" onclick="showHide('has-switches')"><li>Switches</li></a>
+                            </ul>
+                        </div>
+                  </div>
+                </div>
+                <div>
+                    <div id="needs-arduino" style="display: none;" class="connection-column">
+                        <div id="profile-card-title">People Who <strong>Need Arduino</strong></div>
+                        <a href="project-profile.html"><div id="connection-card">
+                            <span class="quick-card-title">Bill Withers, Arduino Clock</span>
+                            <br>This clock will be an alarm clock powered by Arduino.
+                        </div></a>
+                        <a href="#"><div id="connection-card">
+                            <span class="quick-card-title">Bill Withers, Arduino Clock</span>
+                            <br>This clock will be an alarm clock powered by Arduino.
+                        </div></a>
+                    </div>
+
+                    <div id="needs-rpi" style="display: none;" class="connection-column">
+                        <div id="profile-card-title">People Who <strong>Need Raspberry Pi</strong></div>
+                        <a href="#"><div id="connection-card">
+                            <span class="quick-card-title">Bill Withers, Raspberry Pi Clock</span>
+                            <br>This clock will be an alarm clock powered by Raspberry Pi.
+                        </div></a>
+                        <a href="#"><div id="connection-card">
+                            <span class="quick-card-title">Bill Withers, RPi Clock</span>
+                            <br>This clock will be an alarm clock powered by RPi.
+                        </div></a>
+                    </div>
+
+                    <div id="needs-solder" style="display: none;" class="connection-column">
+                        <div id="profile-card-title">People Who <strong>Need Soldering Supplies</strong></div>
+                        <a href="#"><div id="connection-card">
+                            <span class="quick-card-title">Bill Withers, Rpi Clock</span>
+                            <br>This clock will be an alarm clock powered by RPi.
+                        </div></a>
+                        <a href="#"><div id="connection-card">
+                            <span class="quick-card-title">Bill Withers, RPi Clock</span>
+                            <br>This clock will be an alarm clock powered by RPi.
+                        </div></a>
+                    </div>
+
+                    <div id="needs-bread" style="display: none;" class="connection-column">
+                        <div id="profile-card-title">People Who <strong>Need Breadboards</strong></div>
+                        <a href="#"><div id="connection-card">
+                            <span class="quick-card-title">Bill Withers, Rpi Clock</span>
+                            <br>This clock will be an alarm clock powered by RPi.
+                        </div></a>
+                        <a href="#"><div id="connection-card">
+                            <span class="quick-card-title">Bill Withers, RPi Clock</span>
+                            <br>This clock will be an alarm clock powered by RPi.
+                        </div></a>
+                    </div>
+
+                    <div id="needs-routers" style="display: none;" class="connection-column">
+                        <div id="profile-card-title">People Who <strong>Need Routers</strong></div>
+                        <a href="#"><div id="connection-card">
+                            <span class="quick-card-title">Bill Withers, Rpi Clock</span>
+                            <br>This clock will be an alarm clock powered by RPi.
+                        </div></a>
+                        <a href="#"><div id="connection-card">
+                            <span class="quick-card-title">Bill Withers, RPi Clock</span>
+                            <br>This clock will be an alarm clock powered by RPi.
+                        </div></a>
+                    </div>
+
+                    <div id="needs-switches" style="display: none;" class="connection-column">
+                        <div id="profile-card-title">People Who <strong>Need Switches</strong></div>
+                        <a href="#"><div id="connection-card">
+                            <span class="quick-card-title">Bill Withers, Rpi Clock</span>
+                            <br>This clock will be an alarm clock powered by RPi.
+                        </div></a>
+                        <a href="#"><div id="connection-card">
+                            <span class="quick-card-title">Bill Withers, RPi Clock</span>
+                            <br>This clock will be an alarm clock powered by RPi.
+                        </div></a>
+                    </div>
+
+                    <div id="has-arduino" style="display: none;" class="connection-column">
+                        <div id="profile-card-title">People Who <strong>Have Arduino</strong></div>
+                        <a href="#"><div id="connection-card">
+                            <span class="quick-card-title">Bill Withers, Rpi Clock</span>
+                            <br>This clock will be an alarm clock powered by RPi.
+                        </div></a>
+                        <a href="#"><div id="connection-card">
+                            <span class="quick-card-title">Bill Withers, RPi Clock</span>
+                            <br>This clock will be an alarm clock powered by RPi.
+                        </div></a>
+                    </div>
+
+                    <div id="has-rpi" style="display: none;" class="connection-column">
+                        <div id="profile-card-title">People Who <strong>Have Raspbery Pi</strong></div>
+                        <a href="#"><div id="connection-card">
+                            <span class="quick-card-title">Bill Withers, Rpi Clock</span>
+                            <br>This clock will be an alarm clock powered by RPi.
+                        </div></a>
+                        <a href="#"><div id="connection-card">
+                            <span class="quick-card-title">Bill Withers, RPi Clock</span>
+                            <br>This clock will be an alarm clock powered by RPi.
+                        </div></a>
+                    </div>
+
+                    <div id="has-solder" style="display: none;" class="connection-column">
+                        <div id="profile-card-title">People Who <strong>Have Soldering Supplies</strong></div>
+                        <a href="#"><div id="connection-card">
+                            <span class="quick-card-title">Bill Withers, Rpi Clock</span>
+                            <br>This clock will be an alarm clock powered by RPi.
+                        </div></a>
+                        <a href="#"><div id="connection-card">
+                            <span class="quick-card-title">Bill Withers, RPi Clock</span>
+                            <br>This clock will be an alarm clock powered by RPi.
+                        </div></a>
+                    </div>
+
+                    <div id="has-bread" style="display: none;" class="connection-column">
+                        <div id="profile-card-title">People Who <strong>Have Breadboards</strong></div>
+                        <a href="#"><div id="connection-card">
+                            <span class="quick-card-title">Bill Withers, Rpi Clock</span>
+                            <br>This clock will be an alarm clock powered by RPi.
+                        </div></a>
+                        <a href="#"><div id="connection-card">
+                            <span class="quick-card-title">Bill Withers, RPi Clock</span>
+                            <br>This clock will be an alarm clock powered by RPi.
+                        </div></a>
+                    </div>
+
+                    <div id="has-routers" style="display: none;" class="connection-column">
+                        <div id="profile-card-title">People Who <strong>Have Routers</strong></div>
+                        <a href="#"><div id="connection-card">
+                            <span class="quick-card-title">Bill Withers, Rpi Clock</span>
+                            <br>This clock will be an alarm clock powered by RPi.
+                        </div></a>
+                        <a href="#"><div id="connection-card">
+                            <span class="quick-card-title">Bill Withers, RPi Clock</span>
+                            <br>This clock will be an alarm clock powered by RPi.
+                        </div></a>
+                    </div>
+
+                    <div id="has-switches" style="display: none;" class="connection-column">
+                        <div id="profile-card-title">People Who <strong>Have Switches</strong></div>
+                        <a href="#"><div id="connection-card">
+                            <span class="quick-card-title">Bill Withers, Rpi Clock</span>
+                            <br>This clock will be an alarm clock powered by RPi.
+                        </div></a>
+                        <a href="#"><div id="connection-card">
+                            <span class="quick-card-title">Bill Withers, RPi Clock</span>
+                            <br>This clock will be an alarm clock powered by RPi.
+                        </div></a>
+                    </div>
+
+                </div>
+
+
+    </article>
+
+
+    <footer class="footer">H4H 2015 | Techknowledge | HIZBH</footer>
+</div>
+
+</body>
+</html>

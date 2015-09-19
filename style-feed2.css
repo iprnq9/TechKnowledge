@@ -104,9 +104,9 @@ locProjTab :hover {
     display: block;
    background-color: white;
     #height: 650px;
-    width: 60%;
+    width: 40%;
     margin: 30px auto;
-    border: solid 1px #222;
+    border: solid 0px #222;
     padding: 15px 15px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
     

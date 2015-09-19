@@ -1,3 +1,5 @@
+@import "compass/css3"
+
 @font-face {
     font-family: Roboto;
     src: url(fonts/roboto.ttf);
@@ -21,6 +23,10 @@ body {
     color: black;
 }
 
+a, a:link, a:hover, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
 
 .header {
     width: 100%;
@@ -94,15 +100,16 @@ input[type="text"] {
   float: right;
   margin: 0;
   width: 80px;
+    color: #BFE1BF;
   font-size: 18px;
   padding: 12px;
-  border: solid 5px #c9c9c9;
+  border: solid 5px #BFE1BF;
   transition: border 0.7s, width 0.7s;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 input[type="text"]:focus {
-  border: solid 5px #969696;
+  border: solid 5px #BFE1BF;
   width: 200px;
   outline: 0;
 }
