@@ -101,6 +101,7 @@ locProjTab :hover {
 }
 
 .profileBox {
+		font-family: Roboto;
     display: block;
    background-color: white;
     #height: 650px;

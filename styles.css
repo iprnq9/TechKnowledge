@@ -1,7 +1,7 @@
 @import "compass/css3"
 
 @font-face {
-    font-family: Roboto;
+    font-family: nothing;
     src: url(fonts/roboto.ttf);
 }
 
@@ -13,6 +13,11 @@
 @font-face {
     font-family: RobotoMed;
     src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url(fonts/roboto.ttf);
 }
 
 body {
