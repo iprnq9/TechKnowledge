@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">gesturesPrac</string>
-
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-    <string name="lrgtxt">Large Text</string>
-</resources>
