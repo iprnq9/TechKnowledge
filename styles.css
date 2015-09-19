@@ -53,6 +53,7 @@ a, a:link, a:hover, a:visited {
 }
 
 .footer {
+	padding: 5px;
   text-align: right;
     color: black;
   background-color: #de5842;
