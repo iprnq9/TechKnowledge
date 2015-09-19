@@ -1,0 +1,42 @@
+#nav {
+	width: 100%;
+	border: none;
+	border-collapse: collapse;
+	display: table;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #ccc;
+    position: fixed;
+    padding-bottom: 40px;
+}
+#nav ul {
+	list-style: none;
+	display: table-row;
+	text-align: center;
+    width: 100%;
+
+}
+#nav li {
+	margin: 0;
+	display: table-cell;
+	height: 40px;
+	text-align: center;
+    width: 1%;
+    vertical-align:middle;
+    border:1px solid #ddd;
+}
+#nav li a {
+	text-decoration: none;
+    text-align: center;
+    padding-top: 3.5%;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    color: #8B4513;
+}
+#nav li a:visited {
+    color: #8B4513;
+}
+html, body{
+    margin:0px;
+    padding:0px;
+}
