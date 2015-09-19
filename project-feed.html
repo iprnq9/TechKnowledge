@@ -5,14 +5,22 @@
     <meta charset="UTF-8">
     <title>Connections | TechKnowledge</title>
     <link href="styles.css" type="text/css" rel="stylesheet">
+		<link href="templates/nav-top.css" type="text/css" rel="stylesheet">
     <link href="flex.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script> 
+			$(function() {
+				$("#nav-top").load("templates/nav-top.html"); 
+			}); 
+		</script>
 </head>
 
 
 
 <body>
+	
+<div id="nav-top"> </div>	
 
 <script>
     function showHide(divId){
@@ -24,11 +32,6 @@
 
 
 <div class="wrapper">
-    <header class="header"><div class="search"><input type="text" name="search" placeholder="&#xF002; search" style="font-family: RobotoBold, FontAwesome"><span class="logo">TechKnowledge</span>
-
-
-
-    </header>
 
 
     <article id="main2" class="main">
