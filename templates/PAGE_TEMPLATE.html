@@ -5,7 +5,13 @@
     <title>Arduino Bot | Techknowledge</title>
     <link href="styles.css" type="text/css" rel="stylesheet">
     <link href="flex.css" type="text/css" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<script> 
+			$(function() {
+				$("#nav-top").load("templates/nav-top.html");
+				$("#footer").load("templates/footer.html");
+			}); 
+		</script>
 
 </head>
 
@@ -13,21 +19,19 @@
 
 
 <div class="wrapper">
-	<div class="header"><div class="search"><input type="text" name="search" placeholder="&#xF002; search" style="font-family:RobotoBold, FontAwesome"><span class="logo">Techknowledge</span></div>
-
-
-
+<div class="header"><div class="search"><input type="text" name="search" placeholder="&#xF002; search" style="font-family:RobotoBold, FontAwesome"><span class="logo">Techknowledge</span></div>
 </div>
+	
+	
 <aside class="aside nav">
-
 <ul class="nav-links">
 <li class="nav-link-item">Home</li>
 <li class="nav-link-item">My Projects</li>
 <li class="nav-link-item">My Donations</li>
 <li class="nav-link-item">My Profile</li>
 </ul>
-
 </aside>
+	
   <article class="main"><div class="project-header"><span class="project-title">Arduino Bot</span><br>
 <span class="project-author">First Last</span><br><img src="pictures/project-test.jpg" class="project-header-image" /></div>
 <ul class="flex-container">
