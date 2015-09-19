@@ -1,0 +1,134 @@
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/roboto.ttf);
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: RobotoMed;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+body {
+    font-family: Roboto;
+    background: #F0A830;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+
+.header {
+    width: 100%;
+    border: solid black 0px;
+    background-color: #de5842;
+    height: auto;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+
+.nav {
+    float: ;
+    border: solid black px;
+    width: ;
+    height: auto;
+    background-color: #29ABA4;
+    display:none;
+}
+
+.main {
+   background-color: #BFE1BF;
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.footer {
+  text-align: right;
+    color: black;
+  background-color: #de5842;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    font-family: RobotoMed, FontAwesome;
+}
+
+.project-header-image {
+     align: middle;
+     margin: 0 auto; 
+     width: 40%;
+     border-radius: 0px; 
+     border-top: solid black 0px;
+     border-bottom: solid black 0px;
+     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+     margin-top: 10px;
+}
+
+.project-header {
+     margin: 0 auto;
+     width: 99%;
+     text-align: center;
+     border: solid black 0px;
+     background-color:;
+}
+
+.project-title {
+   font-size: 35px;
+   font-family: RobotoMed;
+  color: black;
+}
+
+.project-author {
+   font-size: 24px;
+  color: black;
+    font-family: Roboto;
+}
+
+.project-author:before {
+   content: "by ";
+}
+
+input[type="text"] {
+  display: block;
+  float: right;
+  margin: 0;
+  width: 80px;
+  font-size: 18px;
+  padding: 12px;
+  border: solid 5px #c9c9c9;
+  transition: border 0.7s, width 0.7s;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+input[type="text"]:focus {
+  border: solid 5px #969696;
+  width: 200px;
+  outline: 0;
+}
+
+input[type="text"]::-webkit-input-placeholder, 
+input[type="text"]:-moz-placeholder, 
+input[type="text"]::-moz-placeholder,
+input[type="text"]:-ms-input-placeholder {
+
+}
+
+.logo {
+    font-size: 40px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #000;
+}
+
+.project-info-title {
+  font-weight: ;
+  font-size: 2em;
+
+}
+
+.project-info-text {
+    font-size: 1em;
+    line-height: 30px;
+    font-family: RobotoMed;
+}
