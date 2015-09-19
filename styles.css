@@ -15,17 +15,17 @@
 
 body {
     font-family: Roboto;
-    background: #E9E0D6;
+    background: #F0A830;
     padding: 0;
     margin: 0;
+    color: black;
 }
-
 
 
 .header {
     width: 100%;
     border: solid black 0px;
-    background-color: #EB7260;
+    background-color: #de5842;
     height: auto;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
@@ -42,13 +42,14 @@ body {
 }
 
 .main {
-   background-color: #354458;
+   background-color: #BFE1BF;
    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .footer {
   text-align: right;
-  background-color: #EB7260;
+    color: black;
+  background-color: #de5842;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     font-family: RobotoMed, FontAwesome;
 }
@@ -75,12 +76,12 @@ body {
 .project-title {
    font-size: 35px;
    font-family: RobotoMed;
-  color: #E9E0D6;
+  color: black;
 }
 
 .project-author {
    font-size: 24px;
-  color: #E9E0D6;
+  color: black;
     font-family: Roboto;
 }
 
@@ -110,13 +111,14 @@ input[type="text"]::-webkit-input-placeholder,
 input[type="text"]:-moz-placeholder, 
 input[type="text"]::-moz-placeholder,
 input[type="text"]:-ms-input-placeholder {
-    color: red;
+
 }
 
 .logo {
     font-size: 40px;
     font-family: Roboto;
     font-weight: bold;
+    color: #000;
 }
 
 .project-info-title {

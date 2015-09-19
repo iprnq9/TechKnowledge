@@ -1,0 +1,269 @@
+#bodyWrapper {
+    background-color: #5E412F;
+    width: 100%;
+    #margin-top: -30px;
+    position: relative;
+}
+#tabWrap {
+    display: block;
+    height: 100px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    #background-color: #eee;
+}
+
+#title{ 
+    display:   block;
+    text-align: center;  
+    margin-top: 45px;
+    padding-top: 20px;
+    #background-color: brown;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.profileBox a {
+    color: aqua;  
+}
+
+#tabWrap {
+ $background-color: green;  
+ margin-top: 10px;
+}
+
+
+#locProjTab {
+    display:   inline-block;
+    float: left;
+    #margin-left: 35%;
+    #margin-top: 200px;
+    height: 75px;
+    width: 150px;
+    background-color: #BBB;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 25px 25px;
+   vertical-align: middle;
+    #background-color: rgba(255,255,255, 0.1);
+   # color: aqua;
+}
+
+#locProjTab a{
+    display: block;
+    width: 100%;
+    background-color: transparent;   
+}
+
+locProjTab :hover {
+    
+    background-color: rgba(0,0,0,.1);
+}
+
+.highlight a{
+ color: aqua;   
+}
+
+#locDonorsTab {
+    
+    display: inline-block;
+    float: right;
+    #margin-left: 100px;
+    #margin-top: 200px;
+    height: 75px;
+    width: 150px;
+    background-color: #BBB;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 25px 25px;
+    
+}
+
+#locDonorsTab a{
+    display: block;
+    width: 100%;
+    background-color: transparent;   
+}
+
+
+#locDonors p {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
+    
+}
+
+.profileBox {
+    display: block;
+   background-color: white;
+    #height: 650px;
+    width: 60%;
+    margin: 30px auto;
+    border: solid 1px #222;
+    padding: 15px 15px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+    
+}
+
+.profileTopTextWrap { 
+    display: block;
+    height: 50px;
+    background-color: #eee;
+    padding: 0 15px;
+    
+}
+
+.topTextLeftBox {
+    
+    float: left;
+    #background-color: pink;
+}
+
+.topTextRighttBox {
+    
+    float: right;
+   # background-color: green;
+    
+}
+
+.profileImageDiv {
+    text-align: center;
+    display: block;
+    #height: 300px;
+    width: 100%;
+   # background-color: #aaa;
+    clear: both;
+}
+
+
+
+.infoWrap {
+    
+    width:100%;
+    #height: 33%;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    
+   # background-color: purple;
+}
+
+.descripLeft {
+    
+    float: left;  
+    width: 48%;
+    background-color: #eee;
+    #margin-right: 5px;
+    padding: 0 10px;
+}
+
+.descripLeft h3{
+    
+    text-align: center;
+}
+
+.thingsINeedRight {
+    float: right; 
+    width: 48%;
+    background-color: #eee;
+    #margin-left: 5px;
+    #padding
+}
+
+.thingsINeedRight h3{
+    
+    text-align: center;
+}
+
+.buttonWrapper {
+    display: block;
+    #background-color: #999;
+    height:10%;
+    width: 100%;
+    clear: both;
+    padding-top: 15px;
+}
+
+.profileButtonLeft {
+    float: left;
+    height: 50px;
+    width: 75px;
+    background-color: #BBB;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px 10px;
+    margin-bottom: 10px;
+    margin-left: 15%;
+}
+
+.profileButtonRight {
+    float: right;
+    height: 50px;
+    width: 75px;
+    background-color: #BBB;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px 10px;
+    margin-bottom: 10px;
+    margin-right: 15%;
+}
+
+#menu {
+  position: fixed;
+  
+  width:100%;
+  top: -20px;
+  #margin-left: -10px;
+ # background-color: red;
+    
+}
+
+#menu ul {
+ list-style: none; 
+ #background-color: green;
+ #text-align: center; 
+ width: 100%;
+ margin-right: 0;
+ margin-left: 0;
+background-color: #bbb;
+
+}
+
+#menu ul li {
+ display: inline-block;
+ margin-top: 0px;
+ #margin-left: -40px;
+#padding-left: 20px;
+ margin-right: -20px;
+
+ width: 24%;
+ height: 50px;
+ background-color: #bbb;
+ #width: 150px;
+ #border-radius: 0 20px 20px 0;
+ line-height: 50px;
+ #-webkit-transition: padding-left 0.6a;
+ text-align: center;
+
+}
+
+#menu ul li:hover {
+    
+    background-color: rgba(0,0,0,.1);
+}
+
+#menu a {
+ display: block;
+ text-decoration: none; 
+ width: 100%;
+ background-color: transparent;
+}
+

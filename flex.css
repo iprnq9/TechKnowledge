@@ -102,7 +102,7 @@ body {
 }
 
 .flex-item {
-  background: #E9E0D6;
+  background: #EDEDEA;
   padding: 5px;
   width: 400px;
   height: ;
@@ -118,6 +118,7 @@ body {
    background-color: ;
    height: 100%;
    padding: 15px;
+    color: black;
 }
 
 #slogan {
@@ -137,6 +138,7 @@ body {
    float: left;
    text-align: right;
    width: 100px;
+
 }
 
 #container {
@@ -172,16 +174,18 @@ body {
 #about-content {
     width: 80%;
     height: auto;
-    background-color: white;
+    background-color: #fff;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     margin: 0 auto;
     padding: 15px;
+    color: black;
 }
 
 #about-content-title {
     text-align: center;
     font-size: 2em;
     margin-bottom: 15px;
+    color: black;
 }
 
 #about-content-text {
