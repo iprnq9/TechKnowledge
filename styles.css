@@ -78,7 +78,8 @@ hr {
 .project-header-image {
      align: middle;
      margin: 0 auto; 
-     width: 40%;
+     max-width: 40%;
+     min-width: 30%;
      border-radius: 0px; 
      border-top: solid black 0px;
      border-bottom: solid black 0px;
@@ -153,4 +154,8 @@ input[type="text"]:-ms-input-placeholder {
     font-size: 1em;
     line-height: 30px;
     font-family: RobotoMed;
+}
+
+.project-info-text ul {
+   list-style-type: none;
 }
