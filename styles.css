@@ -79,6 +79,7 @@ hr {
      align: middle;
      margin: 0 auto; 
      max-width: 40%;
+     max-height: 500px;
      min-width: 30%;
      border-radius: 0px; 
      border-top: solid black 0px;
