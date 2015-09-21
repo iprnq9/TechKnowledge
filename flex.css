@@ -178,7 +178,7 @@ body {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     margin: 0 auto;
     padding: 15px;
-    color: black;
+
 }
 
 #about-content-title {
@@ -191,6 +191,7 @@ body {
 #about-content-text {
     font-family: RobotoMed;
     font-size: 1.45em;
+;
 }
 
 
@@ -271,6 +272,10 @@ body {
     font-size: 22px;
 }
 
+#connection-card:hover {
+    background-color: #de5842;
+}
+
 #items-list li:hover {
-    background-color: lightgray;
+    background-color: #de5842;
 }
