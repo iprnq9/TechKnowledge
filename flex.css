@@ -279,3 +279,7 @@ body {
 #items-list li:hover {
     background-color: #de5842;
 }
+
+.project-info-text li:hover {
+    background-color: #de5842;
+}
