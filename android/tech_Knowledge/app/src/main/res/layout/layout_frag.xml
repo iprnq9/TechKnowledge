@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_width="fill_parent" android:layout_height="match_parent"
     android:gravity="center_horizontal"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:background="#E57373">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Projects"
         android:id="@+id/bttn_proj"
-        android:layout_weight="0.47" />
+        android:layout_weight="0.47"
+        android:onClick="onClick1"
+        />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Donate"
         android:id="@+id/bttn_donate"
-        android:layout_weight="0.47" />
+        android:layout_weight="0.47"
+        android:onClick="onClick3"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="My Projects"
-        android:id="@+id/bttn_myproj" />
+        android:id="@+id/bttn_myproj"
+        android:onClick="onClick"/>
 </LinearLayout>

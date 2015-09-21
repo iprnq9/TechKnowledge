@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:id="@+id/rowrel">
+    android:id="@+id/rowrel"
+    android:background="#E0E0E0"
+    android:padding="2dp">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -17,19 +19,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/info_text"
-        android:layout_below="@+id/row_lst"
-        android:padding="5dp" />
+        android:padding="5dp"
+        android:layout_below="@+id/name_text" />
 
     <ListView
         android:layout_width="wrap_content"
         android:layout_height="250dp"
         android:id="@+id/row_lst"
         android:padding="5dp"
-        android:layout_below="@+id/name_text"
-        />
+        android:layout_below="@+id/info_text"
+        android:background="#A5D6A7" />
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:text="Shameeka Adams"

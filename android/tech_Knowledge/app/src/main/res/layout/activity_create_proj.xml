@@ -1,0 +1,80 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/proj_layout">
+
+<fragment
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:name="com.example.hkaou.tech_knowledge.layout_frag"
+    android:id="@+id/fragment2"
+    android:layout_gravity="center_horizontal"
+    tools:layout="@layout/layout_frag" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="@string/getStartedtxt"
+    android:id="@+id/textView"
+    android:layout_below="@+id/fragment2" />
+
+<ImageView
+    android:layout_width="175dp"
+    android:layout_height="175dp"
+    android:id="@+id/proj_img_create"
+    android:layout_below="@+id/textView"
+    android:src="@drawable/imghere" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Upload Image"
+    android:id="@+id/image_bttn"
+    android:layout_below="@+id/textView"
+    android:layout_toRightOf="@+id/proj_img_create"
+    android:onClick="launchCamera" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="Enter Project Description Below"
+    android:id="@+id/desc_title"
+    android:layout_below="@+id/proj_img_create" />
+
+<EditText
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:inputType="textMultiLine"
+    android:ems="10"
+    android:id="@+id/create_des"
+    android:layout_below="@+id/desc_title" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="Enter Item Needed below"
+    android:id="@+id/itm_name_title"
+    android:layout_below="@+id/create_des" />
+
+<EditText
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item_name"
+    android:layout_below="@+id/itm_name_title" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Submit"
+    android:id="@+id/submit_bttn"
+    android:layout_below="@+id/item_name"
+    android:layout_centerHorizontal="true"
+    android:onClick="onClick2" />
+
+
+</RelativeLayout>
