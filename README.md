@@ -1,5 +1,20 @@
 # iprnq9.github.io
 H4H WebSupport
+------------------------------------------------------------------------------------------------
+SIMPLY VISIT THIS LINK TO VIEW THE WEBPAGE:
+
+http://iprnq9.github.io
+------------------------------------------------------------------------------------------------
+THE ANDROID APP APK CAN BE FOUND IN THE FOLLOWING FOLDER:
+
+/app/app-realease.apk
+------------------------------------------------------------------------------------------------
+THE VIDEO CAN BE FOUND VIA YOUTUBE IF H4H@mst.edu is logged in. If not, here is an alternate link for public viewing. 
+
+YouTube: https://youtu.be/abYlvPu-yFA
+
+Alt Link: https://drive.google.com/file/d/0B6SQXt9aBsnlbk9fOGhZX1hrMDA/view?usp=sharing
+------------------------------------------------------------------------------------------------
 
 The MIT License (MIT)
 
